@@ -70,6 +70,8 @@ app_setup_block: |
 
   This image contains the [kepubify](https://pgaskin.net/kepubify/) ebook conversion tool (MIT License) to convert epub to kepub.  In the Calibre-Web admin page (Basic Configuration:External Binaries) set the **Path to Kepubify E-Book Converter** to `/usr/bin/kepubify`
 
+  You require a calibre database, so you can provide your own database or to download a sample from `https://github.com/janeczku/calibre-web/raw/master/library/metadata.db`. It is required to put it on the /books location.
+
 
 # changelog
 changelogs:
